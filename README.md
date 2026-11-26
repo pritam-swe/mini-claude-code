@@ -3,8 +3,21 @@
 - Learning AI Agents
 - Ref: @techwithtim (https://youtu.be/c9AnqCeyxbI)
 
-## Learnings
+# Development
+0. copy url --> git clone "" --> `cd mini-claude-code`
+1. Add `.env` file
+```bash
+touch .env
+echo "GEMINI_API_KEY=<YOUR-API-KEY>" >> .env
+```
+2. ```bash
+   uv sync
+   ```
+3. ```bash
+    uv run mini-claude-code
+    ```
 
+## Learnings
 ### 1. The two Gemini APIs
 #### A. Generate Content API
 This is the traditional Gemini API interface.
