@@ -31,6 +31,10 @@ time_tool = {
         "description": (
             "Gets the current local date and time for a city. "
             "Pass the city name, not a country with multiple time zones."
+            
+            "If the tool returns an unknown-location error, "
+            "do not guess another city or retry with unrelated locations. "
+            "Ask the user to clarify the city and country."
         ),
         "parameters": {
             "type": "object",
