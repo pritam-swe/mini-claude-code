@@ -14,6 +14,7 @@ dependencies = [
 
 [project.scripts]
 mini-claude-code = "mini_claude_code.main:main"
+mini-agent = "mini_claude_code.agent:main"
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
